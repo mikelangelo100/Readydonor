@@ -1,0 +1,142 @@
+.create-profile__body{
+    margin: 0;
+   height: 1100px; 
+   width: 1000px;
+    background-color: rgb(240, 207, 207);
+}
+.container-wrapper {
+    background-color: honeydew;
+    height: 1000px; 
+    width: 800px;
+    margin-left: 200px;
+    max-height: 2000px;
+  
+    font-size: 1rem;
+
+}
+.header-content {
+    background-color: rgb(35,47,62);
+    padding: 10px 10px;
+    margin-top: 15px;
+
+    &__profile {
+        font-size: 24px;
+        font-family:  'Open Sans', sans-serif;
+        color: #fff;
+        font-weight: bold;
+
+    }
+    &__text {
+        font-size: 1.6rem;
+        font-family:  'Open Sans', sans-serif;
+        padding: 10px;
+        color: #fff;
+
+    }
+}
+
+///////////////////////////////////////////////////////
+////////////FORM CONTENT//////////////
+
+.form-content {
+    height: 800px; 
+    width: 800px;
+    background-color:rgb(35,47,62) ;
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-top: 7px;
+   align-items: space-between;
+   flex-direction: row;
+  
+
+   &__fullname {
+       padding-left: 280px;
+       display: flex;
+       justify-content: space-around;
+       align-content: space-between;
+       position: relative;
+       top: 40px;
+       left:5px;
+   }
+  
+   &__age {
+    position: relative;
+    padding-left: 280px;
+    left: 5px; 
+    top: 60px;
+    }
+
+   &__gender {
+   position: relative;
+   padding-left: 280px;
+   top: 50px;
+   left: 5px;
+
+   }
+   &__phone {
+    position: relative;
+    padding-left: 280px;
+    left: 5px;
+    top: 70px;
+   }
+   &__bloodgroup {
+    display: flex;
+    position: relative;
+    padding-left: 280px;
+    left: 5px;
+    top: 80px;
+
+   }
+   &__contact {
+    position: relative;
+    padding-left: 280px;
+    left: 5px;
+    top: 80px;
+   }
+   &__state {
+    position: relative;
+    padding-left: 280px;
+    left: 5px;
+    top: 80px;
+   }   
+   
+   
+   &__bio {
+    position: relative;
+    padding-left: 280px;
+    left: 5px;
+    top: 60px;
+
+   }
+ 
+}
+//////////////////////////////
+.required {
+    color: red;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+}
+.form-info {
+    color: #fff;
+    font-size: 1.2rem;
+    position: relative;
+    left: -140px;
+}
+
+.error-feedback {
+    color : red;
+}
+
+.MuiPaper-root {
+    background-color: rgb(33,33,33) !important;
+}
+
+.MuiTypography-body2 {
+    font-size: 20px !important;
+    color: #fff !important;
+}
+.MuiSvgIcon-root {
+    font-size: 34px !important;
+}

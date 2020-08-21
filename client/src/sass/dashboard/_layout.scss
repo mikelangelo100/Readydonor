@@ -1,0 +1,40 @@
+  
+.dashboard-content{
+    display: flex;
+    flex: 0.2;
+}
+.dashboard-header{
+    font-size: 1.4rem;
+    height: 7rem;
+    width: 0%;
+    background-color: #fff;
+    border-bottom: green;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.sidebar{
+ background-color: rgb(46, 51, 46);
+ flex: 0.2; 
+ height: 100%;
+ position: fixed;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: flex-end;
+
+}
+// .main-content{
+//  background-color: #EDF2F7;
+//  flex: 0.8;
+//  height: 1000px;
+//  width: 50%;
+//  z-index: -30;
+// }
+
+.dashboard-container{
+   display: flex;
+}
