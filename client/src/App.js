@@ -32,6 +32,7 @@ import DonateBlood from './components/dashboard/donateBlood/donate'
 import MyProfile from './components/dashboard/profile/profile'
 
 import Profiles from './components/profiles/Profiles';
+import LearnMore from './components/layout/LearnMore';
 //import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
 import Post from './components/post/Post';
@@ -81,6 +82,7 @@ class App extends Component {
             <Route exact path="/" component={Landing} />
             <div className="container">
               <Route exact path="/register" component={Register} />
+              <Route exact path="/learnMore" component={LearnMore} />
               <Route exact path="/register/hospital" component={HospitalRegister} />
               <Route exact path="/login/hospital" component={HospitalLogin} />
               <Route exact path="/login" component={Login} />

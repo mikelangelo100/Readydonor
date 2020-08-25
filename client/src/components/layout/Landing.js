@@ -96,18 +96,16 @@ class Landing extends Component {
              <div className="col-1-of-2">
                         <h3 className="heading-tertiary-1 u-margin-bottom-small">You can donate blood anywhere and at anytime</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur libero repellat quis consequatur
-                            ducimus quam nisi exercitationem omnis earum qui. We believe that 
-                            no African should die from a shortage of essential medical products at the Hospital level, and we are on a mission to solve it. Our goal is to deliver needed medical products such as blood, blood products, oxygen, as well as vaccines to hospitals
-                            across Africa. We are on a mission to save one million lives.
+                        Donating blood is easy and our blood supply relies exclusively on the generosity of volunteer blood donors.
+There is no substitute for human blood. Most people qualify as a volunteer donor,
+even if they are taking medications
                         </p>
 
                         <h3 className="heading-tertiary-2 u-margin-bottom-small">You can search for any blood group</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nulla deserunt voluptatum nam.
-                            no African should die from a shortage of essential medical products at the Hospital level, and we are on a mission to solve it. Our goal is 
-                            to deliver needed medical products such as blood, blood products, oxygen, as well as vaccines to hospitals
-                            across Africa. We are on a mission to save one million lives.
+                        At ReadyDonor you can easily search for any blood group of choice relative to availability. Most individuals
+                            dont know their blood types and based on various innovations , users can indentify their blood type at 
+                            home using a rapid blood typing kit 
                         </p>
                       
                         <Link to ="" className="btn-text">Learn more &rarr;</Link>
@@ -149,7 +147,7 @@ class Landing extends Component {
                             <i className="feature-box__icon icon-basic-geolocalize-05"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Locate</h3>
                             <p className="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                            Easily get profile details of available donors 
                             </p>
                         </div>
                     </div>
@@ -159,7 +157,7 @@ class Landing extends Component {
                             <i className="feature-box__icon icon-basic-link"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Link</h3>
                              <p className="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                             Connect with Identified Donors 
                             </p>
                         </div>
                     </div>
@@ -169,7 +167,7 @@ class Landing extends Component {
                             <i className="feature-box__icon icon-basic-heart"></i>
                             <h3 className="heading-tertiary u-margin-bottom-small">Save a life</h3>
                             <p className="feature-box__text">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur.
+                            Donate Blood 
                             </p>
                         </div>
                     </div>
